@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 56
+  controlID: 68
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 386
     height: 923
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 547
+  controlID: 96
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 90
+  controlID: 97
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -348,22 +348,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Lets Make a VR Game/Oculus Hands/Prefabs
+    - Assets/Samples/XR Interaction Toolkit
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Lets Make a VR Game/Oculus Hands/Prefabs
+  - Assets/Samples/XR Interaction Toolkit
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\AliseC
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 86210100
-    m_LastClickedID: 74118
-    m_ExpandedIDs: 00000000ae5d000026170100281701002e170100301701003e17010072170100f017010070210100e221010000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 92}
+    m_SelectedIDs: b0b10000
+    m_LastClickedID: 45488
+    m_ExpandedIDs: 00000000127400001c740000227400002a7400002c74000066740000b0b10000dcb10000eeb1000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -391,7 +391,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ae5d0000
+    m_ExpandedIDs: 0000000012740000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -418,7 +418,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -521,9 +521,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 940cffff
+      m_SelectedIDs: ecc7ffff
       m_LastClickedID: 0
-      m_ExpandedIDs: 8e1cffff9a1cffffa81cffffae1cffffe01cffffe61cffff8c1dffff921dffff9668ffffa268ffffb068ffffb668ffffe870ffffa2e5ffffaae5ffffb0e5ffffb4e5ffffbae5ffffc2e5ffffcae5ffffcee5ffffd2e5ffffd6e5fffff4e5fffffce5ffff08e6ffff16e6ffff64e6ffff68e6ffff6ce6ffff70e6ffff76e6ffff82e6ffff88e6ffff8ee6ffff94e6ffffa0e6ffffa6e6fffface6ffffb0e6ffffb4e6ffffbae6ffffc0e6ffffc6e6ffffcee6ffffd6e6ffffdee6ffffe6e6ffffeae6fffff2e6fffffae6ffff90e7ffff60e8ffffeae8ffff38e9ffff6ae9ffff14eaffff1ceaffff5ceaffff64eaffff6ceaffff74eaffff7ceaffff84eaffff8ceaffffc4eafffffceaffff04ebffff0cebffff6eebffff72ebffffacebffffb2ebffffbaebffffc2ebffffd6ebffffdeebffffe6ebffffeeebfffff6ebfffffeebffff06ecffff0eecffff16ecffff1eecffff26ecffff2eecffff36ecffff3eecffff46ecffff4eecffff56ecffff5aecffff62ecffff6cecffff8cecffffdcecffff2aefffff74f0ffffb2f0fffff4f0ffffd0f2ffffa4f3ffffe2f3ffffe8f3fffff0f3fffffcf3ffff04f4ffff0cf4ffff14f4ffff1af4ffff22f4ffff58f4ffffeaf4fffff2f4ffff1cfbffff
+      m_ExpandedIDs: aae5ffff76720000867200008e720000ae720000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -620,6 +620,28 @@ MonoBehaviour:
       id: unity-search-toolbar
       index: 1
       layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Open Tile Palette
+      index: 2
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Focus
+      index: 3
+      layout: 4
     - dockPosition: 0
       containerId: overlay-container--left
       floating: 0
@@ -630,17 +652,6 @@ MonoBehaviour:
       snapCorner: 0
       id: unity-transform-toolbar
       index: 0
-      layout: 2
-    - dockPosition: 0
-      containerId: overlay-container--left
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: 0, y: 197}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: unity-component-tools
-      index: 1
       layout: 2
     - dockPosition: 0
       containerId: overlay-container--right
@@ -773,50 +784,6 @@ MonoBehaviour:
       snapCorner: 0
       id: Scene View/Particles
       index: 10
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Tilemap
-      index: 11
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Tilemap Palette Helper
-      index: 12
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-toolbar__top
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Open Tile Palette
-      index: 2
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-toolbar__top
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Tilemap Focus
-      index: 3
       layout: 4
   m_WindowGUID: fffe718a2e283f24aacd65f070700773
   m_Gizmos: 1
@@ -970,7 +937,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
