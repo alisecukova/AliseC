@@ -1292,3 +1292,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:scripting/monoscript/fileName/XRControllerRecording.deprecated.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
   custom:scripting/monoscript/fileName/ProBuilderSettingsProvider.cs: 13beb7e19435cf9f346fa945eea48a58 -> 31c7f11630ae278eb11b8b1b3b44c0ad
   custom:scripting/monoscript/fileName/CollapseVertices.cs: dc3e1016a661dce32e47367904825a91 -> b8f4877fb9cdb02e00dd9b33b403fa7c
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
