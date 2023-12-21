@@ -4,6 +4,9 @@ using UnityEngine.SceneManagement;
 
 public class Counter : MonoBehaviour
 {
+    [SerializeField]
+    private string sceneToLoad;
+
     private TMPro.TMP_Text text;
     private int count;
 
@@ -24,7 +27,7 @@ public class Counter : MonoBehaviour
 
         if (count >= Collectable.total)
         {
-            LoadMainMenuScene();
+            LoadScene();
         }
     }
 
@@ -33,11 +36,16 @@ public class Counter : MonoBehaviour
         text.text = $"{count} / {Collectable.total}";
     }
 
-    void LoadMainMenuScene()
+    public void LoadScene()
     {
-        Debug.Log("All collectibles collected. Loading Main Menu scene.");
-
-        // Load the main menu scene
-        SceneManager.LoadScene("MainMenu");
+        if (!string.IsNullOrEmpty(sceneToLoad))
+        {
+            Debug.Log($"Loading scene: {sceneToLoad}");
+            SceneManager.LoadScene(sceneToLoad);
+        }
+        else
+        {
+            Debug.LogWarning("Scene name not set.");
+        }
     }
 }
